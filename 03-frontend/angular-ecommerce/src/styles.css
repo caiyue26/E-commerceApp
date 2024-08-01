@@ -38,10 +38,10 @@ input{
     border:none
 }
 
-button{
+/* button{
     border:none;
     background:0 0
-}
+} */
 
 img{
     max-width:100%;
@@ -514,7 +514,7 @@ input.au-input.au-input-xl{
     background:#fff
 }
 .main-content.page-m{
-    padding:10% 15%!important
+    padding:10% 30% 10% 5%
 }
 
 /* 
@@ -682,6 +682,9 @@ select{
 .table{
     margin:0
 }
+.table-bordered {
+    border: 1px solid #dee2e6; /* Ensure the border is applied */
+}
 table.table.table-bordered{
     border:1px solid #ccc;
     background:#fff
@@ -737,7 +740,7 @@ table.table.table-bordered th{
  */
 
  .btn-info{
-    color:#fff;
+    color:#fff!important;
     background-color:#0da8e4!important;
     border-color:#0da8e4!important
 }
@@ -759,6 +762,46 @@ a.primary-btn:hover{
 .active-link {
   font-weight: bold;
 }
+
+
+/* Optionally, if there are no specific primary button styles, define them explicitly */
+button.btn-primary.btn-sm {
+    background-color: #0275d8 !important;
+    border: 1px solid #0275d8!important;
+    color: white !important;
+}
+
+/* General button styles */
+/* button {
+    border: none;
+    background: 0 0; 
+} */
+
+/* Add specific styles for .btn-primary */
+.btn-primary {
+    background-color: #0275d8  !important;
+    border-color: #0275d8  !important;
+    color: white !important;
+}
+
+.btn-primary:hover {
+    background-color: darkblue !important;
+    border-color: darkblue !important;
+}
+
+/* Add these styles to the end of your CSS file */
+.container-fluid .btn-primary {
+    background-color: #0275d8 !important;
+    border-color: #0275d8!important;
+    color: white !important;
+}
+
+.container-fluid .btn-primary:hover {
+    background-color: darkblue !important;
+    border-color: darkblue !important;
+}
+
+
 
 /* 
  * ----------------------------
@@ -944,7 +987,7 @@ footer ul li{
         margin-right:15px
     }
         .main-content.page-m{
-        padding:10% 0!important
+        padding: 10% 30% 10% 5%
     }
     .header-mobile .navbar-mobile{
         display:none;
